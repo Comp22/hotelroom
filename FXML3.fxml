@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication4.FXML3Controller">
+   <children>
+      <TextField fx:id="name" layoutX="130.0" layoutY="61.0" />
+      <TextField fx:id="id" layoutX="130.0" layoutY="104.0" />
+      <Button layoutX="130.0" layoutY="165.0" mnemonicParsing="false" onAction="#addcustomer" text="add customer" />
+      <ListView fx:id="lv1" layoutX="357.0" layoutY="65.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextArea fx:id="ta1" layoutX="357.0" layoutY="265.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
